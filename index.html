@@ -80,11 +80,21 @@
 
 <div class="container-fluid" id="contact">
   <a class="btn btn-default" href="#" role="button"><h2>CONTACT</h2></a>
-    <form id="contact-form" method="get" action="contact.php" role="form">
-      <div class="messages"></div>
-        <div class="controls">
+    
+      <form id="contact-form" method="POST">
+        <div class="contact-input">
+          <input id="name" type="text" name="name" placeholder="NAME" required="">
+          <input id="email" type="email" name="_replyto" placeholder="EMAIL" required="">
+          <input id="phone" type="tel" name="phone" placeholder="PHONE" required="">
+          <textarea id="message" rows="3" name="body" placeholder="MESSAGE" required=""></textarea>
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="submit" id="submit" value="SEND">
+        </div>
+      </form>
 
-      <div class="contact-input">
+      <!-- 
+        <form id="contact-form" method="post" action="#" role="form">
+        <div class="contact-input">
         <input id="name" type="text" placeholder="NAME" required="">
       </div>
        
@@ -102,8 +112,7 @@
       </div>
        
       <button type="submit" id="send">SEND</button>
-      </div>
-    </form>
+    </form> -->
 </div>
         
 <p id="social">
@@ -113,13 +122,18 @@
   <a class="btn btn-default" href="https://www.instagram.com/leonel.ai/" role="button">IG</a>
 </p>
    
-</div>  <!-- /container -->
+</div>  <!-- container -->
  
 <footer>
   <p>&copy; 2017</p>
 </footer>
     <script src="leonel-ai.github.io/contact.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+      var contactform =  document.getElementById('contact-form');
+      contactform.setAttribute('action', '//formspree.io/' + 'leonelaguzman1' + '@' + 'gmail' + '.' + 'com');
+    </script>
+
 </html>
   
   
