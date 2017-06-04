@@ -49,9 +49,8 @@ li {
 
 /* Main Header */
 img {
-  max-width: 1000px;
-  padding-right: 30px;
-  padding-left: 30px;
+  max-width: 800px;
+  margin: auto;
 }
 
 #header-info {
@@ -94,11 +93,11 @@ img {
 }
 
 form {
-  width: 100%;
+  max-width: 500px;
   display: block;
-  margin-top: 0;
-  padding-left: 200px;
-  padding-right: 200px;
+  margin: auto;
+  /*padding-left: 200px;
+  padding-right: 200px;*/
 }
 
 .contact-input {
@@ -111,16 +110,17 @@ form {
 }
 
 input, #message {
-  max-width: 100%;
+  max-width: 500px;
+  margin: auto;
   cursor: default;
   color: #1D3851;
 }
 
 input, #message {
-  z-index: 1;
+  /*z-index: 1;*/
   position: relative;
-  padding-right: 0;
-  padding-left: 0;
+  /*padding-right: 0;
+  padding-left: 0;*/
   border: 0;
   border-top-color: initial;
   border-top-style: initial;
@@ -146,15 +146,11 @@ input, #message {
   background-position-x: 0px;
   background-position-y: 0px;
   background-size: initial;
-  background-repeat-x: initial;
-  background-repeat-y: initial;
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
   background-color: initial;
   box-shadow: none!important;
-  resize: none;
-  width: 100%;
 }
 
 input {
@@ -167,7 +163,8 @@ input {
 }
 
 #send {
-  width: 100%;
+  max-width: 500px;
+  margin: auto;
   border-radius: 0;
   border: none;
   box-shadow: none;
