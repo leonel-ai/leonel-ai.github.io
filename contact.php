@@ -32,11 +32,11 @@ $errorMessage = 'There was an error while submitting the form. Please try again 
 try
 {
 
-    if(count($_POST) == 0) throw new \Exception('Form is empty');
+    if(count($_GET) == 0) throw new \Exception('Form is empty');
             
     $emailText = "You have a new message from your contact form\n=============================\n";
 
-    foreach ($_POST as $key => $value) {
+    foreach ($_GET as $key => $value) {
         // If the field exists in the $fields array, include it in the email 
         if (isset($fields[$key])) {
             $emailText .= "$fields[$key]: $value\n";
