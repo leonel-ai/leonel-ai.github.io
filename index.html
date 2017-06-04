@@ -82,16 +82,26 @@
 
 <div class="container-fluid" id="contact">
   <a class="btn btn-default" href="#" role="button"><h2>CONTACT</h2></a>
-    <div class="row-fluid">
-
       <form id="contact-form" method="POST">
-        <div class="contact-input">
-          <input id="name" type="text" name="name" placeholder="NAME" required="">
-          <input id="email" type="email" name="_replyto" placeholder="EMAIL" required="">
-          <input id="phone" type="tel" name="phone" placeholder="PHONE" required="">
-          <textarea id="message" rows="3" name="body" placeholder="MESSAGE" required=""></textarea>
-          <input type="text" name="_gotcha" style="display:none" />
-          <input type="submit" id="submit" value="SEND">
+        <div class="contact-input form-group row">
+          <div class="col-sm-10">
+            <input id="name" type="text" name="name" placeholder="NAME" required="">
+          </div>
+          <div class="col-sm-10">
+            <input id="email" type="email" name="_replyto" placeholder="EMAIL" required="">
+          </div>
+          <div class="col-sm-10">
+            <input id="phone" type="tel" name="phone" placeholder="PHONE" required="">
+          </div>
+          <div class="col-sm-10">
+            <textarea id="message" rows="3" name="body" placeholder="MESSAGE" required=""></textarea>
+          </div>
+          <div class="col-sm-10">
+            <input type="text" name="_gotcha" style="display:none" />
+          </div>
+          <div class="col-sm-10">
+            <input type="submit" id="submit" value="SEND">
+          </div>
         </div>
       </form>
       </div>
