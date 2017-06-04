@@ -93,7 +93,7 @@ img {
 }
 
 form {
-  max-width: 500px;
+  max-width: 700px;
   display: block;
   margin: auto;
   /*padding-left: 200px;
@@ -110,8 +110,8 @@ form {
 }
 
 input, #message {
-  max-width: 500px;
-  margin: auto;
+  /*max-width: 500px;
+  margin: auto;*/
   cursor: default;
   color: #1D3851;
 }
@@ -163,7 +163,7 @@ input {
 }
 
 #send {
-  max-width: 500px;
+  /*max-width: 500px;*/
   margin: auto;
   border-radius: 0;
   border: none;
