@@ -49,8 +49,13 @@ li {
 
 /* Main Header */
 img {
-  max-width: 800px;
-  margin: auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#header-photo {
+  margin-bottom: 20px;
 }
 
 #header-info {
