@@ -80,6 +80,7 @@ img {
 #contact {
   background: #DADCDF;
   color: #fff;
+  text-align: center;
   padding: 20px 10% 40px;
   -webkit-box-align: end;
   -ms-flex-align: end;
@@ -109,7 +110,7 @@ input, #message {
   /*max-width: 500px;
   margin: auto;*/
   cursor: default;
-  color: #ffffff;
+  color: #1D3851;
 }
 
 input, #message {
@@ -145,7 +146,7 @@ input, #message {
   background-attachment: initial;
   background-origin: initial;
   background-clip: initial;
-  background-color: initial;
+  background-color: #fff;
   box-shadow: none!important;
 }
 
