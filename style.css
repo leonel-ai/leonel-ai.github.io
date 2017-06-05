@@ -93,11 +93,8 @@ img {
 }
 
 form {
-  /*max-width: 700px;*/
   display: block;
   margin: auto;
-  /*padding-left: 200px;
-  padding-right: 200px;*/
 }
 
 .contact-input {
@@ -107,8 +104,6 @@ form {
 }
 
 input, #message {
-  /*max-width: 500px;
-  margin: auto;*/
   cursor: default;
   color: #1D3851;
 }
@@ -116,8 +111,6 @@ input, #message {
 input, #message {
   z-index: 1;
   position: relative;
-  /*padding-right: 0;
-  padding-left: 0;*/
   border: 0;
   border-top-color: initial;
   border-top-style: initial;
@@ -159,8 +152,11 @@ input {
   padding-top: 1px;
 }
 
+#name, #email, #phone, #message {
+    margin-bottom: 20px;
+}
+
 #send {
-  /*max-width: 500px;*/
   margin: auto;
   border-radius: 0;
   border: none;
@@ -179,3 +175,4 @@ footer {
   text-align: center;
   font-size: 12px;
 }
+
