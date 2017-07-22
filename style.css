@@ -58,6 +58,7 @@ li {
   column-count: 2;
   max-height: 300px;
   text-align:left;
+  padding-bottom: 1.4rem;
 }
 
 @media screen and (max-width: 718px) {
