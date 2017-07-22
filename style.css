@@ -94,7 +94,8 @@ img {
 /* Portfolio */
 #info-box {
   background: #fff;
-  text-align: center;
+  text-align: justify;
+    text-justify: inter-word;
   padding: 20px 10% 20px;
   -webkit-box-align: end;
   -ms-flex-align: end;
