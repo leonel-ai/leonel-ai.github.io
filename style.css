@@ -70,8 +70,6 @@ img {
 #header-photo {
   margin-bottom: 20px;
   margin-top: 20px;
-  margin-right: 20%;
-  margin-left: 20%;
   text-align: center;
   padding: 20px 10% 20px;
 }
@@ -89,6 +87,9 @@ img {
 
 #profile-photo {
   margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  padding: 20px 10% 20px;
 }
 
 /* Portfolio */
