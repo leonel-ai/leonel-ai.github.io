@@ -92,6 +92,10 @@ img {
 }
 
 /* Portfolio */
+.btn {
+  padding: 0rem 0rem;
+}
+
 #info-box {
   background: #fff;
   text-align: justify;
