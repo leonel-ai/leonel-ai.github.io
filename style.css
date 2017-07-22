@@ -42,6 +42,14 @@ li {
   list-style-type: none;
 }
 
+ul{
+    list-style-type: disc;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    columns: 2;
+    list-style-position: inside;
+}
+
 @media screen and (max-width: 718px) {
   .navbar-brand{
     text-align: left;
