@@ -50,7 +50,7 @@ li {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */ 
   column-count: 2;
-  max-height: 275px;
+  max-height: 300px;
   text-align:left;
 }
 
