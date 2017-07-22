@@ -82,6 +82,10 @@ img {
   align-content: space-around;
 }
 
+#profile-photo {
+  margin-bottom: 20px;
+}
+
 /* Portfolio */
 #info-box {
   background: #fff;
