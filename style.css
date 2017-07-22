@@ -44,14 +44,13 @@ li {
 
 #double li  {
   margin-left: 12px;
+}
+
+.previousWork {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */ 
   column-count: 2;
   max-height: 200px;
-}
-
-#includes {
-  margin-left: 18px;
 }
 
 @media screen and (max-width: 718px) {
