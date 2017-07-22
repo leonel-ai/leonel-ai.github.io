@@ -32,9 +32,6 @@ h1 {
     h1{
       font-size:2rem;
     }
-    h4{
-      font-size:1.5rem;
-    }
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -77,11 +74,6 @@ img {
   margin-left: 20%;
   text-align: center;
   padding: 20px 10% 20px;
-  -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
-  -ms-flex-line-pack: distribute;
-  align-content: space-around;
 }
 
 #header-info {
