@@ -29,6 +29,12 @@ h1 {
 }
 
 @media screen and (max-width: 718px) {
+  h4 {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 718px) {
     h1{
       font-size:2rem;
     }
@@ -52,6 +58,16 @@ li {
   column-count: 2;
   max-height: 300px;
   text-align:left;
+}
+
+@media screen and (max-width: 718px) {
+  .previousWork {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */ 
+    column-count: 1;
+    max-height: auto;
+    text-align: left;
+  }
 }
 
 @media screen and (max-width: 718px) {
