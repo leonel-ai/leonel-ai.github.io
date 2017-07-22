@@ -69,6 +69,9 @@ img {
 
 #header-photo {
   margin-bottom: 20px;
+  margin-top: 10px;
+  text-align: center;
+  padding: 20px 10% 20px;
 }
 
 #header-info {
