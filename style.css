@@ -28,7 +28,7 @@ h1 {
   color: #1D3851;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 718px) {
     h1{
       font-size:2rem;
     }
@@ -42,7 +42,7 @@ li {
   list-style-type: none;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 718px) {
   .navbar-brand{
     text-align: left;
   }
